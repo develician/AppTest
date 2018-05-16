@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1F40BE1F9853C90044EF4A /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1F40BD1F9853C90044EF4A /* View2Controller.swift */; };
+		DA1F40C11F985C4E0044EF4A /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA1F40C01F985C4E0044EF4A /* back.jpg */; };
 		DAEE3F6F1F97025700472A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE3F6E1F97025700472A65 /* AppDelegate.swift */; };
 		DAEE3F711F97025700472A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE3F701F97025700472A65 /* ViewController.swift */; };
 		DAEE3F741F97025700472A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEE3F721F97025700472A65 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA1F40BD1F9853C90044EF4A /* View2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
+		DA1F40C01F985C4E0044EF4A /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back.jpg; path = ../../../Desktop/back.jpg; sourceTree = "<group>"; };
 		DAEE3F6B1F97025700472A65 /* AppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEE3F6E1F97025700472A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEE3F701F97025700472A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA1F40BF1F985C2D0044EF4A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DA1F40C01F985C4E0044EF4A /* back.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		DAEE3F621F97025700472A65 = {
 			isa = PBXGroup;
 			children = (
+				DA1F40BF1F985C2D0044EF4A /* Image */,
 				DAEE3F6D1F97025700472A65 /* AppTest */,
 				DAEE3F821F97025700472A65 /* AppTestTests */,
 				DAEE3F8D1F97025700472A65 /* AppTestUITests */,
@@ -103,6 +116,7 @@
 				DAEE3F751F97025700472A65 /* Assets.xcassets */,
 				DAEE3F771F97025700472A65 /* LaunchScreen.storyboard */,
 				DAEE3F7A1F97025700472A65 /* Info.plist */,
+				DA1F40BD1F9853C90044EF4A /* View2Controller.swift */,
 			);
 			path = AppTest;
 			sourceTree = "<group>";
@@ -232,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1F40C11F985C4E0044EF4A /* back.jpg in Resources */,
 				DAEE3F791F97025700472A65 /* LaunchScreen.storyboard in Resources */,
 				DAEE3F761F97025700472A65 /* Assets.xcassets in Resources */,
 				DAEE3F741F97025700472A65 /* Main.storyboard in Resources */,
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEE3F711F97025700472A65 /* ViewController.swift in Sources */,
+				DA1F40BE1F9853C90044EF4A /* View2Controller.swift in Sources */,
 				DAEE3F6F1F97025700472A65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
